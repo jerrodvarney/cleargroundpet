@@ -10,7 +10,14 @@ const faqs = [
 export default function FaqSection() {
   return (
     <section id="faq" className="home-section-faq">
-      <h2>FAQ</h2>
+      <div className="faq-text">
+        <h4>top text</h4>
+        <h3>Frequently Asked Questions</h3>
+        <p>
+          {`Lorem ipsum dolorum Lorem ipsum dolorum Lorem ipsum dolorum
+            Lorem ipsum dolorum Lorem ipsum dolorum Lorem ipsum dolorum Lorem ipsum`}
+        </p>
+      </div>
 
       <Accordion.Root type="single" collapsible className="faq-list">
         {faqs.map((f, i) => (

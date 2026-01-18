@@ -1,0 +1,10 @@
+#quote {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  min-height: 100vh;
+
+  img {
+    max-width: 130px;
+  }
+}

@@ -1,0 +1,12 @@
+.page {
+  max-width: 1750px;
+  margin: auto;
+  padding: 2rem;
+}
+
+button,
+a {
+  &:hover {
+    cursor: pointer
+  }
+}
