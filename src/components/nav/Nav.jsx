@@ -17,6 +17,10 @@ export default function Nav() {
     }
   };
 
+  const goToQuote = () => {
+    navigate('/quote', { replace: false });
+  };
+
   return (
     <nav id="nav">
       <Link to="/" className="logo-wrapper">
@@ -29,7 +33,7 @@ export default function Nav() {
         <button type="button" onClick={() => scrollTo('area')}>Service Area</button>
       </div>
 
-      <Link to="/quote" className="nav-cta">Free Quote</Link>
+      <button type="button" className="cta-btn" onClick={goToQuote}>Free Quote</button>
     </nav>
   );
 }

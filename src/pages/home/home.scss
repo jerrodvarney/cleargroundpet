@@ -28,3 +28,46 @@
     }
   }
 }
+
+#hero {
+  border: 1px solid black;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  min-height: 700px;
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-self: center;
+    width: 50%;
+
+  }
+
+  .cta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    button {
+      width: fit-content;
+    }
+  }
+}
+
+#how {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}

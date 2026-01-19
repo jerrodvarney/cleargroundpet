@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
 
   img {
     max-width: 130px;
@@ -15,23 +14,5 @@
     gap: 2rem;
     padding: .75rem 1.5rem;
     border-radius: 10rem;
-
-    button {
-      background-color: white;
-      border: none;
-    }
-  }
-
-  .nav-cta {
-    border-radius: 10rem;
-    padding: 1rem 2rem;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-
-    &:hover {
-      background: black;
-    }
   }
 }

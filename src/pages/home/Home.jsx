@@ -165,12 +165,12 @@ export default function Home() {
 
       <section id="hero">
         <Nav />
-        <div className="section-container">
+        <div className="hero-content">
           <h3>Weekly, bi-weekly, and one-time cleanups. No Contracts.</h3>
           <h1>Professional Pet Waste Management and Sanitation in Las Vegas.</h1>
-          <div id="cta-container">
+          <div className="cta-container">
             <p>Get your free quote to get started!</p>
-            <button type="button" onClick={goToQuote}>
+            <button type="button" className="cta-btn" onClick={goToQuote}>
               Get Free Quote
             </button>
           </div>
@@ -203,7 +203,7 @@ export default function Home() {
                 <p>list item</p>
               </li>
             </ul>
-            <button type="button" onClick={goToQuote}>
+            <button type="button" className="cta-btn" onClick={goToQuote}>
               Get My Quote
             </button>
           </div>
@@ -221,7 +221,9 @@ export default function Home() {
           <h4>promo tagline</h4>
           <h3>Promo Title</h3>
           <p>expiration</p>
-          <button type="button" onClick={goToQuote}>Free Quote</button>
+          <button type="button" className="cta-btn" onClick={goToQuote}>
+            Free Quote
+          </button>
         </div>
       </section>
 
@@ -297,12 +299,14 @@ export default function Home() {
             {`Lorem ipsum dolorum Lorem ipsum dolorum Lorem ipsum dolorum
             Lorem ipsum dolorum Lorem ipsum dolorum Lorem ipsum dolorum Lorem ipsum`}
           </p>
-          <button type="button">CTA</button>
+          <button type="button" className="cta-btn">CTA</button>
         </div>
         <div className="referral-half">
           <h4>top text</h4>
           <h3>Get Quote</h3>
-          <button type="button" onClick={goToQuote}>Free Quote</button>
+          <button type="button" className="cta-btn" onClick={goToQuote}>
+            Free Quote
+          </button>
         </div>
       </section>
 

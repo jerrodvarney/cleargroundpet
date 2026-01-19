@@ -1,3 +1,13 @@
+:root {
+  --cta-accent: #D11D1D;
+  --cta-border: 2px solid #D11D1D;
+  --cta-radius: 10px;
+  --cta-text: #FFFFFF;
+  --cta-hover: #122526;
+  --font: "Lilita One", Sans-serif;
+  --dev: 2px solid black
+}
+
 .page {
   max-width: 1750px;
   margin: auto;
@@ -10,3 +20,18 @@ a {
     cursor: pointer
   }
 }
+
+  .cta-btn {
+    border-radius: var(--cta-radius);
+    border: var(--cta-border);
+    background-color: var(--cta-accent);
+    color: var(--cta-text);
+    padding: 10px 35px;
+    font-size: 22px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: var(--cta-hover);
+      border-color: var(--cta-hover);
+    }
+  }
