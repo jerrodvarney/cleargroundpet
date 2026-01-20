@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FaCheck } from 'react-icons/fa';
-import DogCountCards from '../DogCountCards';
-import FrequencyCards from '../FrequencyCards';
+import DogCountCards from '../cards/DogCountCards';
+import FrequencyCards from '../cards/FrequencyCards';
 import './quote-form.scss';
 
 const GATE_LOCATIONS = [
@@ -20,7 +20,7 @@ export default function QuoteForm({ zipCode }) {
     coupon: '',
     numDogs: 1,
     frequency: 'weekly',
-    phone: '', // digits only
+    phone: '',
   });
 
   const [step, setStep] = useState(1);
